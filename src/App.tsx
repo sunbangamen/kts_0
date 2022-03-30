@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 import { Route } from "react-router-dom";
-import Home from "./components/Home";
+import HomePage from "./pages/HomePage";
 
 function App() {
-  return <Route component={Home} path="/" exact />;
+  return <Route component={HomePage} path="/" exact />;
 }
 
 export default App;
